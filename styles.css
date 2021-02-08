@@ -1,0 +1,14 @@
+body
+{
+    background-color: rgb(92, 17, 128) ;
+}
+
+header
+{
+    background-color: #0000006e;
+    text-align: center;
+    text-decoration:underline;
+    font-family: 'Press Start 2P', cursive;
+    height: 50px;
+    margin-top: 0px;
+}
