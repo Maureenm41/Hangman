@@ -1,14 +1,29 @@
 body
 {
-    background-color: rgb(92, 17, 128) ;
+    background-color: rgb(90, 123, 231);
 }
 
 header
 {
-    background-color: #0000006e;
+    /*background-color: #0000006e;*/
     text-align: center;
     text-decoration:underline;
     font-family: 'Press Start 2P', cursive;
     height: 50px;
-    margin-top: 0px;
+    margin: auto;
+}
+
+.game
+{
+    background-color:#FFF ;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.logo
+{
+    width: 50px;
+    height: 50px;
 }
