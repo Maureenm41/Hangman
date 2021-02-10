@@ -32,4 +32,10 @@ header
 {
     font-size: 30px;
     font-weight: 150;
+    text-align: center;
+}
+
+.wrongAnswer
+{
+    float: right;
 }
