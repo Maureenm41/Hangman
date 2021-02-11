@@ -1,7 +1,8 @@
 body
 {
     /*background-color: rgb(90, 123, 231);*/
-    background-image: linear-gradient(to bottom, #78a5ea, #00c3ff, #00dbe0, #00ea8f, #a8eb12);
+    /*background-image: linear-gradient(to bottom, #78a5ea, #00c3ff, #00dbe0, #00ea8f, #a8eb12);*/
+    background-image:url(".assets/pexels-francesco-ungaro-1670977.jpg ");
     background-repeat: no-repeat;
 }
 
