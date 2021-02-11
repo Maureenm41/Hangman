@@ -12,7 +12,7 @@ var wordsGuess = [
 ]
 
 let answer = '';
-let maxWrong = 6;
+let maxWrong = 10;
 let mistakes = 0;
 let guessed = [];
 let wordStatus = null;
