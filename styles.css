@@ -1,8 +1,8 @@
 body
 {
     /*background-color: rgb(90, 123, 231);*/
-    /*background-image: linear-gradient(to bottom, #78a5ea, #00c3ff, #00dbe0, #00ea8f, #a8eb12);*/
-    background-image:url(".assets/pexels-francesco-ungaro-1670977.jpg ");
+    background-image: linear-gradient(to bottom, #78a5ea, #00c3ff, #00dbe0, #00ea8f, #a8eb12);
+    /*background-image:url("/assets/pexels-johannes-plenio-1103970.jpg");*/
     background-repeat: no-repeat;
 }
 
@@ -56,6 +56,7 @@ header
     margin-left: 300px;
     margin-top: 50px;
     width: 40%;
+    border: 5px solid rgba(0, 0, 0, 0.24);
 }
 
 .resetStart
@@ -65,4 +66,5 @@ header
     border: none;
     border-radius: 20px;
     font-size: 20px;
+    box-shadow: 5px rgba(0, 0, 0, 0.212);
 }
