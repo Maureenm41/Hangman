@@ -68,3 +68,8 @@ header
     font-size: 20px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.534);
 }
+
+p
+{
+    font-size: 15px;
+}
