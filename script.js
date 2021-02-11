@@ -64,7 +64,7 @@ function checkIfGameWon() {
 function checkIfGameLost() {
   if (mistakes === maxWrong) {
     document.getElementById('wordSpotlight').innerHTML = 'The answer was: ' + answer;
-    document.getElementById('keyboard').innerHTML = 'You Lost!!!';
+    document.getElementById('keyboard').innerHTML = 'You Lose!!!';
   }
 }
 
