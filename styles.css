@@ -2,6 +2,7 @@ body
 {
     /*background-color: rgb(90, 123, 231);*/
     background-image: linear-gradient(to bottom, #78a5ea, #00c3ff, #00dbe0, #00ea8f, #a8eb12);
+    background-repeat: no-repeat;
 }
 
 header
@@ -54,4 +55,13 @@ header
     margin-left: 300px;
     margin-top: 50px;
     width: 40%;
+}
+
+.resetStart
+{
+    background: rgb(19, 187, 150);
+    color : rgb(38, 31, 51) ;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
 }
