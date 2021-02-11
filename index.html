@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     </head>
     <body>
+        <!--
         <header>
             <h1>Hangman <img src="assets/hangmanlogo.png" class="logo"></h1>
         </header>
@@ -20,7 +21,7 @@
                 <span id="maxWrong"></span>
             </div>
             <div class="guessWords">
-                <p>Can you guess the words ?</p>
+                <p>Can you guess the word ?</p>
                 <p id="wordSpotLight">The word to be guess goes here</p>
                 <div id="keyboard"></div>
                 <button  class="btn btn-info" onclick="reset()">Reset</button>
@@ -29,9 +30,41 @@
 
 
     </main>
-<script src="script.js"></script>
+<script src="script.js"></script>-->
 
-       
+<!--test2-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CDN -->
+  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">-->
+
+  <title>Hangman</title>
+</head>
+<body>
+    <header>
+        <h1>Hangman <img src="assets/hangmanlogo.png" class="logo"></h1>
+    </header>
+<div class="container">
+  <div class="float-right wrong-guess">Wrong Guess: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+  <div class="text-center">
+    <img id='hangmanPic' src="./images/0.jpg" alt="">
+    <p>Can you guess the word ?</p>
+    <p id="wordSpotlight">Click start</p>
+    <div id="keyboard"></div>
+    <p>Watch out , some word are in 2 part ,  use "-" to get it , another need "." to be found </p>
+    <button class="btn btn-info" onClick="reset()">Start / Reset</button>
+  </div> 
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
         
     </body>
 </html>
